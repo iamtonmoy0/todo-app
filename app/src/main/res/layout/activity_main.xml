@@ -17,13 +17,12 @@
     android:layout_margin="5dp"
     >
     <EditText
-        android:id="@+id/edit_text_id"
+        android:id="@+id/editText"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:text="Enter you todo list here"
+        android:layout_height="60dp"
         />
     <Button
-        android:id="@+id/button"
+        android:id="@+id/add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add"
@@ -31,6 +30,7 @@
 
 </LinearLayout>
     <ListView
+        android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
